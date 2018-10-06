@@ -52,8 +52,6 @@ p, nav {
 
   #navother { 
     right: 17%;
-  /* I don't know how to get the nav on the Contact and Portfolio page to line up with the content box. Tried
-  many different things :(  */
   }
 
   #h1other {
@@ -79,7 +77,6 @@ p, nav {
     margin-bottom: 200px;
     margin-right: 150px;
     padding: 20px;
-    /* align-content: center; */
     block-size: 550px;
     border: lightgray 1px solid;
 }
@@ -268,3 +265,282 @@ footer {
     padding: 30px;
     padding-bottom: 5px;
 }
+
+
+/* ------- Desktop ------- */
+@media screen and (max-width: 960px) {
+    /* new.html */
+    #rel {
+        block-size: 660px;
+        }
+
+    /* portfolio.html */
+    #h1other {
+        margin-left: 209px;
+    }
+  
+  #navother {
+    margin-right: 70px;
+  }
+  
+  #rel3 {
+      block-size: 780px;
+      margin-left: 200px;
+      margin-right: 200px;
+      width: 650px;
+      padding: 20px;
+  }
+  
+  .pro1 {
+      position: absolute;
+      top: 390px;
+      left: 241px; 
+  }
+  
+  .pro2 {
+      position: absolute;
+      top: 390px;
+      left: 491px;
+    
+  }
+  
+  .pro3 {
+     position: absolute;
+      top: 610px;
+      left: 241px;
+  }
+  
+  .pro4 {
+      position: absolute;
+      top: 830px;
+      left: 241px;
+    
+  }
+  
+  .pro5 {
+     position: absolute;
+      top: 610px;
+      left: 491px;
+    
+  }
+  
+      /* contact.html */
+
+      #rel2 {
+        margin-left: 100px;
+        margin-right: 150px;
+        block-size: 480px;
+        width: 750px; 
+    }
+    
+     #navother { 
+        margin-right: 70px;
+      }
+    
+      #h1other {
+        margin-left: 107px;
+      }
+      
+      
+    }
+    
+    
+    /* --------- Tablet -------- */  
+    @media screen and (max-width: 768px) {
+    /* new.html */    
+        #rel {
+            block-size: 670px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+        #h1home {
+              margin-left: 70px;
+          }
+        
+        h1 {
+            font-size: 29px
+        }
+        
+        nav {
+            font-size: 15px
+          }
+        
+        #homenav {
+              margin-right: 30px;
+          }
+    /* portfolio.html */
+    #h1other {
+        margin-left: 90px;
+    }
+  
+  #navother {
+    margin-right: 50px;
+  }
+
+#rel3 {
+      block-size: 780px;
+      margin-left: 80px;
+      margin-right: 80px;
+      width: 600px;
+      padding: 20px;
+  }
+
+
+  .pro1 {
+      position: absolute;
+      top: 387px;
+      left: 121px; 
+  }
+  
+  .pro2 {
+      position: absolute;
+      top: 387px;
+      left: 371px;
+    
+  }
+  
+  .pro3 {
+     position: absolute;
+      top: 608px;
+      left: 121px;
+  }
+  
+  .pro4 {
+      position: absolute;
+      top: 608px;
+      left: 371px;
+    
+  }
+  
+  .pro5 {
+     position: absolute;
+      top: 825px;
+      left: 121px;
+    
+  }
+
+
+    /* contact.html */
+        
+
+#rel2 {
+    margin-left: 100px;
+    margin-right: 150px;
+    block-size: 480px;
+    width: 600px; 
+}
+
+ #navother { 
+    margin-right: 30px;
+  }
+
+  #h1other {
+    margin-left: 107px;
+  }
+        }
+     
+        
+    /* --------- Moblie ---------- */
+    @media screen and (max-width: 640px) {
+    /* new.html */
+    
+     #h1home {
+          margin-left: 40px;
+      }
+    
+    h1 {
+      padding: 30px;
+      font-size: 20px;
+    }
+    
+    nav {
+      font-size: 14px;
+    }
+    
+    #homenav {
+      margin-right: 10px;
+    }
+    
+    h2 {
+      font-size: 18px;
+    }
+    
+    
+    p {
+      font-size: 13px;
+    }
+    
+    #rel {
+        block-size: 695px;
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+        
+
+ /* portfolio.html */
+
+ #h1other {
+    margin-left: 50px;
+}
+
+#navother {
+    margin-right: 20px;
+}
+
+#rel3 {
+  block-size: 760px;
+  margin-left: 40px;
+  margin-right: 60px;
+  width: 550px;
+}
+
+.pro1 {
+    font-size: 12px;
+    padding: 12px;
+    top: 390px;
+    left: 81px; 
+}
+
+.pro2 {
+    font-size: 12px;
+    padding: 12px;
+    top: 390px;
+    left: 331px;
+  
+}
+
+.pro4 {
+    font-size: 12px;
+    padding: 12px;
+    top: 608px;
+    left: 331px;
+  
+}
+
+.pro5 {
+    font-size: 12px;
+    padding: 12px;
+    top: 830px;
+    left: 81px;
+  
+}
+
+
+    /* contact.html */
+
+    #rel2 {
+        margin-left: 40px;
+        block-size: 470px;
+        width: 530px; 
+    }
+    
+     #navother { 
+        margin-right: 40px;
+      }
+    
+      #h1other {
+        margin-left: 50px;
+      }
+
+    }
